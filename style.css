@@ -1,4 +1,15 @@
-
+@font-face {
+    font-family: lemon milk regular;
+    src: url(./LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: lemon milk meium;
+    src: url(./LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: lemon milk;
+    src: url(./lemonmilk.otf);
+}
 
 *{
         margin: 0;
