@@ -411,7 +411,7 @@ nav h4{
 
     #page1-content h1{
         font-family: lemon milk regular;
-        font-size: 19vw;
+        font-size: 0vw;
         padding-top: 130vw;
         display: inline-flex;
         flex-direction: column-reverse;
