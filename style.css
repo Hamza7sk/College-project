@@ -71,7 +71,6 @@
 
 #page1{
     height: 100vh;
-    width: 100%;
     /* background-color: #000000; */
     position: relative;
 }
@@ -213,14 +212,13 @@ nav h4{
     animation-duration: 1;
 }
 
-#page3{
-    min-height: 190vh;
+#page3 {
+    min-height: 120vh;
     width: 100%;
-    /* background-color: #b60f0f; */
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -239,22 +237,19 @@ nav h4{
     font-size: 2vw;
 }
 
-.child{
-    height: 55vh;
-    width: 40vw;
+.child {
+    height: 54vh;
+    width: 38vw;
+    /* background-color: red; */
+    /* border: 2px solid #000; */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-
-
-.child img{
+.child img {
     height: 100%;
-    width: 100%;
-
 }
 
 .child .proname{
@@ -371,7 +366,8 @@ nav h4{
     #nav a{
         text-decoration: none;
         color: #000000;
-        font-size: 3vw;
+        font-size: 5vw;
+        font-family: lemon milk medium;
         /* font-weight: 100; */
         padding-left: 20px;
     }
@@ -379,20 +375,32 @@ nav h4{
     #nav #links a{
         text-decoration: none;
         color: #000000;
-        font-size: 3vw;
-        font-family: lemon milk;
+        font-size: 5vw;
+        font-family: lemon milk medium;
         /* font-weight: 400; */
         align-items: center;
         justify-content: space-between;
         gap: -300px;
     }
 
-
+    #page1{
+        height: 100vh;
+        /* background-color: #000000; */
+        position: relative;
+    }
+    
+    #page1 video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+    
 
     #page1-content h1{
         font-family: lemon milk;
         font-size: 19vw;
-        padding-top: 179vw;
+        padding-top: 135vw;
         display: inline-flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -400,12 +408,19 @@ nav h4{
     }
 
     #cursor{
-        /* size: 0; */
-        height: 37vw;
-        width: 37vw;
+        height: 45vw;
+        width: 45vw;
         background-color: #000000;
         border-radius: 50%;
-        position: fixed;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%, -50%);
+        /* size: 0; */
+       
+        /* position: fixed; */
         /* top: 50%;
         left: 50%;
         z-index: 9;
