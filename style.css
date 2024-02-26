@@ -1,0 +1,642 @@
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+    html , body{
+        height: 100%;
+        width: 100%;
+        font-family : lemon milk;
+        background-color: #f5ecec;
+    }
+
+#nav{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.4vw;
+    font-family: lemon milk medium;
+    font-weight: 100;
+    padding-left: 50px;
+}
+
+#nav #links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.4vw;
+    font-family: lemon milk medium;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+
+#cursor{
+    height: 7vw;
+    width: 7vw;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*transform: translate(-50%, -50%);*/
+}
+
+#cursor h2{
+    color: #fff;
+    font-size: 1.4vw;
+    
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000000; */
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /*background-color: #00000044;*/
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    /*display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+nav{
+    /*height: 100px;*/
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    width: 100%;
+    padding: 3vw 3vw;
+}
+
+nav h3{
+    font-size: 1.4vw;
+    font-family: lemon milk regular;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.4vw;
+    font-family: lemon milk regular;
+    font-weight: 100;
+}
+
+#page1-content h1{
+    font-family: lemon milk;
+    font-size: 20.4vw;
+    padding-top: 24vw;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #ffffff; */
+    padding: 1vw 1vw;
+    align-items: center;
+
+    
+}
+#page2 h5{
+    font-size: 5vw;
+    font-family: LEMON MILK REGULAR;
+    padding: 2vw 7vw;
+    color: #000000;
+    padding: 1vw 24vw;
+}
+
+
+#page2 .elem{
+    z-index: 99;
+    height: 80vh;
+    width: 33%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+
+}
+
+#page2 .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+    
+}
+.elem .title{
+    scale: 1;
+    height: 200px;
+    width: 90%;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 21;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page2 .elem .title h6{
+    scale: 1;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: #ffffff;
+    font-size: 1.9vw;
+    font-family: lemon milk regular;
+}
+
+
+#page2 .elem .title:hover{
+    scale: 1;
+    height: 300px;
+    background-color: #000;
+    transition-duration: 0.7s;
+}
+
+#page2 .elem .title h6:hover{
+    scale: 1;
+    color: #fff;
+    animation-duration: 1;
+}
+
+#page3{
+    min-height: 190vh;
+    width: 100%;
+    /* background-color: #b60f0f; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#page3 h8{
+    font-size: 5vw;
+    position: relative;
+    margin-top: 0%;
+    padding: 5vw 28vw;
+}
+
+#page3 h9{
+    padding: 0vw 15vw;
+}
+
+#page3 h9{
+    font-size: 2vw;
+}
+
+.child{
+    height: 55vh;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.child img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.child .proname{
+    scale: 1;
+    height: 200px;
+    width: 90%;
+    border-radius: 50px;
+    background-color: rgba(235, 23, 23, 0);
+    position: absolute;
+    z-index: 21;
+    top: 120%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+#page3 .child .proname h10{
+    scale: 1;
+    background-color: #00000000;
+    border-radius: 50px;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: #000000;
+    font-size: 1.9vw;
+    font-family: lemon milk regular;
+}
+
+
+
+
+.child img:hover{
+    scale: 1.07;
+    transition-duration: 0.5s;
+
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page4 h14{
+    font-size: 20vw;
+    position: relative;
+    top: 0%;
+}
+
+#page4 h11{
+    font-size: 5vw;
+    font-family: lemon milk medium;
+    line-height: 5vw;
+    letter-spacing: 0.001vw;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7vw 7vw;
+}
+
+#page4 a{
+    height: 7vh;
+    /* width: 10vw; */
+    margin-left: 40vw;
+    margin-right: 40vw;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 h12{
+    font-size: 1vw;
+    font-family: lemon milk regular;
+    line-height: 5vw;
+    letter-spacing: 0.001vw;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 7vw;
+}
+
+#page4 h13{
+    font-size: 14vw;
+    color:#f5ecec ;
+}
+
+
+@media (max-width: 600px) {
+
+    #nav{
+        height: 90px;
+        width: 100%;
+        background-color: rgba(0, 255, 255, 0);
+        position: fixed;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    #nav a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 3vw;
+        /* font-weight: 100; */
+        padding-left: 20px;
+    }
+    
+    #nav #links a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 3vw;
+        font-family: lemon milk;
+        /* font-weight: 400; */
+        align-items: center;
+        justify-content: space-between;
+        gap: -300px;
+    }
+
+
+
+    #page1-content h1{
+        font-family: lemon milk;
+        font-size: 19vw;
+        padding-top: 179vw;
+        display: inline-flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cursor{
+        /* size: 0; */
+        height: 37vw;
+        width: 37vw;
+        background-color: #000000;
+        border-radius: 50%;
+        position: fixed;
+        /* top: 50%;
+        left: 50%;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%, -50%); */
+    }
+    
+    #cursor h2{
+        /* scale: 0; */
+        color: #ffffff;
+        font-size: 10vw;
+    }
+
+    #page2{
+        min-height: 100%;
+        width: 100%;
+        background-color: #000;
+        padding: 1vw 1vw;
+        align-items: center;
+    
+        
+    }
+    
+    #page2 h5{
+        font-size: 9vw;
+        font-family: lemon milk regular;
+        color: #fff;
+        padding: 5vw;
+        padding-left: 8vw;
+        /* position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    #page2 .elem{
+        z-index: 99;
+        height: 80vh;
+        width: 100%;
+        background-color: aqua;
+        position: relative;
+        display:inline-flex;
+        align-items: center;
+        justify-content: space-evenly;
+     
+    
+    }
+    
+    #page2 .elem img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .elem .title{
+        scale: 1;
+        height: 200px;
+        width: 90%;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        z-index: 21;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    #page2 .elem .title h6{
+        scale: 1;
+        background-color: #000;
+        border-radius: 50px;
+        padding: 4vw;
+        padding-left: 11vw;
+        padding-right: 2vw;
+        color: #ffffff;
+        font-size: 5vw;
+        font-family: lemon milk regular;
+    }
+    
+    
+    #page2 .elem .title:hover{
+        scale: 1;
+        height: 270px;
+        background-color: #000;
+        transition-duration: 0.7s;
+    }
+    
+    #page2 .elem .title h6:hover{
+        scale: 1;
+        color: #fff;
+        /* animation-duration: 1; */
+    }
+
+    #page3{
+        height: 290vh;
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+        display: flex;
+        align-items: last baseline;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    #page3 h8{
+        font-size: 7vw;
+        color: #000;
+        font-family: lemon milk regular;
+        /* padding: 0vw 20vw; */
+        padding: 15vw;
+        padding-left: 20vw;
+    }
+    
+    #page3 h9{
+        font-size: 2vw;
+        color: #000;
+        font-family: lemon milk thin;
+        padding: 0vw 15.5vw;
+    }
+    .child{
+        height: 55vh;
+        width: 88vw;
+        /* background-color: aqua; */
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .child img{
+        height: 90%;
+        width: 100%;
+    
+    }
+    
+    .child .proname{
+        scale: 1;
+        height: 200px;
+        width: 90%;
+        border-radius: 50px;
+        background-color: rgba(235, 23, 23, 0);
+        position: absolute;
+        z-index: 21;
+        top: 110%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+    }
+    
+    #page3 .child .proname h10{
+        scale: 1;
+        background-color: #00000000;
+        border-radius: 50px;
+        padding: 1vw;
+        padding-left: 10vw;
+        padding-right: 2vw;
+        color: #000000;
+        font-size: 3vw;
+        font-family: lemon milk regular;
+    }
+    
+
+
+    #page4{
+        height: 100vh;
+        width: 100%;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #page4 h14{
+        font-size: 20vw;
+        position: relative;
+        top: 0%;
+    }
+    
+    #page4 h11{
+        font-size: 5vw;
+        font-family: lemon milk medium;
+        line-height: 5vw;
+        letter-spacing: 0.001vw;
+        text-align: center;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0vw 7vw;
+        padding-top: 20vw;
+        padding-bottom: 4vw;
+    }
+    
+    #page4 a{
+        height: 3vh;
+        /* width: 10vw; */
+        margin-left: 18vw;
+        margin-right: 20vw;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        border-radius: 50px;
+        padding: 2vw;
+        padding-left: 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #page4 h12{
+        font-size: 2.7vw;
+        font-family: lemon milk regular;
+        line-height: 3vw;
+        letter-spacing: 0.001vw;
+        text-align: center;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw 7vw;
+    }
+    
+    #page4 h13{
+        font-size: 14vw;
+        color:#f5ecec ;
+    }
+    
+}
+
