@@ -11,7 +11,6 @@
     src: url(./lemonmilk.otf);
 }
 
-
 *{
         margin: 0;
         padding: 0;
@@ -24,7 +23,8 @@
     html , body{
         height: 100%;
         width: 100%;
-        font-family : lemon milk regular;
+        font-family : lemon milk medium;
+        src: url(./LEMONMILK-Medium.otf);
         background-color: #f5ecec;
     }
 
@@ -43,8 +43,8 @@
 #nav a{
     text-decoration: none;
     color: #000000;
-    font-size: 2vw;
-    font-family: lemon milk regular;
+    font-size: 1.4vw;
+    font-family: lemon milk medium;
     font-weight: 100;
     padding-left: 50px;
 }
@@ -52,8 +52,8 @@
 #nav #links a{
     text-decoration: none;
     color: #000000;
-    font-size: 2vw;
-    font-family: lemon milk regular;
+    font-size: 1.4vw;
+    font-family: lemon milk medium;
     font-weight: 400;
     padding-right: 50px;
 }
@@ -132,8 +132,9 @@ nav h4{
 }
 
 #page1-content h1{
-    font-family: lemon milk regular;
-    font-size: 0vw;
+    font-family: lemon milk;
+    src: url(./lemonmilk.otf);
+    font-size: 20.4vw;
     padding-top: 24vw;
     display: inline-flex;
     flex-direction: column-reverse;
@@ -155,6 +156,7 @@ nav h4{
 #page2 h5{
     font-size: 5vw;
     font-family: LEMON MILK REGULAR;
+    src: url(./LEMONMILK-Regular.otf);
     padding: 2vw 7vw;
     color: #000000;
     padding: 1vw 24vw;
@@ -209,6 +211,8 @@ nav h4{
     color: #ffffff;
     font-size: 1.9vw;
     font-family: lemon milk regular;
+    src: url(./LEMONMILK-Regular.otf);
+
 }
 
 
@@ -316,7 +320,7 @@ nav h4{
 
 #page4 h11{
     font-size: 5vw;
-    font-family: lemon milk regular;
+    font-family: lemon milk medium;
     line-height: 5vw;
     letter-spacing: 0.001vw;
     text-align: center;
@@ -324,7 +328,7 @@ nav h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10.5vw 7vw;
+    padding: 9vw 7vw;
 }
 
 #page4 a{
@@ -379,8 +383,8 @@ nav h4{
     #nav a{
         text-decoration: none;
         color: #000000;
-        font-size: 7vw;
-        font-family: lemon milk regular;
+        font-size: 5vw;
+        font-family: lemon milk medium;
         /* font-weight: 100; */
         padding-left: 20px;
     }
@@ -388,8 +392,8 @@ nav h4{
     #nav #links a{
         text-decoration: none;
         color: #000000;
-        font-size: 7vw;
-        font-family: lemon milk regular;
+        font-size: 5vw;
+        font-family: lemon milk medium;
         /* font-weight: 400; */
         align-items: center;
         justify-content: space-between;
@@ -411,9 +415,9 @@ nav h4{
     
 
     #page1-content h1{
-        font-family: lemon milk regular;
+        font-family: lemon milk medium;
         font-size: 0vw;
-        padding-top: 130vw;
+        padding-top: 135vw;
         display: inline-flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -619,7 +623,7 @@ nav h4{
     
     #page4 h11{
         font-size: 5vw;
-        font-family: lemon milk regular;
+        font-family: lemon milk medium;
         line-height: 5vw;
         letter-spacing: 0.001vw;
         text-align: center;
